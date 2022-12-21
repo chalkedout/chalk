@@ -2569,7 +2569,7 @@ input, select, textarea {
 	}
 
 		.image img {
-			border-radius: 0.25em;
+			border-radius: 0.99em;
 			display: block;
 		}
 
@@ -2583,13 +2583,13 @@ input, select, textarea {
 
 		.image.left {
 			float: left;
-			margin: 0 1.5em 1em 0;
+			margin: 0 1.5em 1em 1.5em;
 			top: 0.25em;
 		}
 
 		.image.right {
 			float: right;
-			margin: 0 0 1em 1.5em;
+			margin: 0 1.5em 1em 1.5em;
 			top: 0.25em;
 		}
 
@@ -2610,7 +2610,7 @@ input, select, textarea {
 		}
 
 			.image.main img {
-				width: 100%;
+				width: 50%;
 			}
 
 /* List */
